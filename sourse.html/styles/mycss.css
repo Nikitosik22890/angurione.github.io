@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
+
+
+
+
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #1016d1 27%, #080707 100%);
+
+}
+.p{
+    color: aquamarine;
+}
+.nav-link{
+    color: aquamarine;
+}
+
+
+.navbar-nav .nav-link.active{
+    color: rgb(143, 142, 142);
+}
+.navbar-brand img{
+    width: 72px;
+}
+.navbar-toggler{
+    background-color: rgb(143, 142, 142);
+}
+
+.card>img{
+    width: 393px;
+    height: 30em;
+}
+
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #1016d1 27%, #080707 100%);
+
+    
+}
+
+.card{
+    background: linear-gradient(270deg, #1016d1 27%, #080707 100%)
+
+
+
+
+}
+
+
+.card-title{
+    color: aquamarine;
+    
+}
+.card-text{
+    color: aquamarine;
+}
+
+
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.d-block{
+    width: 100%;
+}
+.row p{
+    color: aquamarine;
+}
+.slide-text{
+    margin: auto auto;
+}
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.footer-text{
+    
+    margin: auto auto;
+   
+    
+}
+
+footer{
+    margin-top: 12em;
+    background: linear-gradient(270deg, #1016d1 27%, #080707 100%)
+
+
+}
+.cartinka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call-anim{
+
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+
+.btn-outline-primary{
+    background: linear-gradient(270deg, #1016d1 27%, #080707 100%)
+
+}
+.helpa{
+    color: aquamarine;
+}
+
+
